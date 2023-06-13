@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.montserrat {
+    font-family: 'Monserrat', sans-serif !important;
+}
+
+.gas-yellow {
+    background-color: #FFCA08 !important;
+}
+
+.gas-yellow-btn {
+    background-color: #FFCA08 !important;
+}
+
+.gas-yellow-btn:hover {
+    background-color: #f3c009 !important;
+}
+
+.gas-yellow-btn:active {
+    background-color: #e2b307 !important;
+    border-color: #FFCA08 !important;
+}
+
+/* Login form */
+.form-control:focus,
+.modal-body .form-control:focus {
+    border-color: var(--bs-border-color) !important;
+    box-shadow: 0 0 0 0.2rem #25252540 !important;
+}
+
+.search-form.form-control:focus {
+    box-shadow: none !important;
+}
+
+::-webkit-input-placeholder {
+    font-size: .8em !important;
+}
+
+.form-signin {
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
